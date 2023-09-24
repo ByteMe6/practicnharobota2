@@ -1,2 +1,2 @@
-# practicnha-robota-2--
-here it will project that I will do with someone
+# Практична робота
+цю рбоота буде зроблена з ще декількома людьми. це практичний проєкт який я зробив в практиці з *GoITeens*
