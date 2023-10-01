@@ -12,3 +12,4 @@
 5. Артем Гладкий
 >>>>>>> f7ea387b9dc6543afff508fdf1135c3016d7cb74
 comand project
+:,
