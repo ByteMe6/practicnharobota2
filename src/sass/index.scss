@@ -1,11 +1,12 @@
 @import './common';
-@import './base/reset';
 @import './base/base';
-@import './layout/header';
-@import './layout/footer';
-@import './layout/contact';
-@import './layout/apartment';
-@import './layout/galary';
-@import './layout/hero';
-@import './layout/ph';
-@import './layout/infrastructure';
+@import './base/reset';
+
+@import './componens/header';
+@import './componens/gallery';
+@import './componens/contactus';
+@import './componens/footer';
+@import './componens/hero';
+@import "./componens/apartment";
+@import "./componens/ph";
+@import './componens/infrostructure';

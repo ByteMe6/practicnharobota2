@@ -1,0 +1,95 @@
+/* header */
+/* flex */
+.heder_flex {
+    line-height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* flex */
+/*logo */
+.logo {
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lex_teht_red {
+    color: #939393;
+}
+
+/*logo */
+.ul_header {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.li_header {
+    padding: 10px 0;
+}
+
+.a_header {
+    padding: 0 30px;
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    position: relative;
+
+    color: #263238;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.a_header:before,
+.a_header:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: rgb(32, 32, 32);
+    transition: all .5s ease;
+    left: 55%;
+    bottom: -10px;
+}
+
+.a_header:hover:after {
+    width: 15%;
+}
+
+.a_header:hover:before {
+    width: 25%;
+    margin-left: calc(-25% + 3px);
+}
+
+/* button */
+.bitn_red_header {
+    cursor: pointer;
+    width: 190px;
+    height: 50px;
+    border: solid 2px #263238;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.2s;
+
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bitn_red_header:hover {
+    color: #ffffff;
+    background-color: #263238;
+}
+
+/* button */
+/* header */
