@@ -1,3 +1,38 @@
-.hero{
-    background-image: url("../src/img/header-bg.png");
+.hero {
+  background: url('../img/header-bg.png');
+  text-align: center;
+  height: 720px;
+}
+.hero-heading {
+  color: var(--text-of-pages, #7e6d53);
+
+  /* main title */
+  font-family: Poppins;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero-text {
+  color: var(--text-of-pages, #7e6d53);
+
+  /* subtitle */
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.contact-button-text-hero {
+  color: var(--button-text, #2d2a22);
+
+  /* subtitle */
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.contact-button-hero{
+    margin-top: 380px;
 }
