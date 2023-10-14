@@ -33,15 +33,16 @@ gap: 10px;
 }
 
 .menu-btn{
-  display: flex;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  right:0;
-  width: 26px;
-  height: 26px;
-  cursor: pointer;
-  z-index: 1;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100px; /* Увеличьте высоту бургер-кнопки */
+    z-index: 1;
+    position: fixed;
+    padding-bottom: 50px;
 }
  
 .menu-btn > span,
@@ -51,8 +52,11 @@ gap: 10px;
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #616161;
+  background-color: rgb(255, 255, 255);
   transition-duration: .25s;
+  font-size: xx-large;
+  padding-top: 5px;
+  line-height: 10px;
 }
 .menu-btn > span::before {
   content: '';
@@ -66,29 +70,31 @@ gap: 10px;
   display: block;
   position: fixed;
   visibility: hidden;
-  top: 0;
+  top: 0px;
   left: -100%;
-  width: 300px;
+  width: 94%;
   height: 100%;
   margin: 0;
-  padding: 80px 0;
+  padding: 0 0;
   list-style: none;
-  background-color: #ECEFF1;
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  background:linear-gradient(337deg, #2D2A22 5.7%, #7E6D53 108.98%); ;
+  box-shadow: 1px 0px 6px rgba(255, 0, 0, 0.2);
   transition-duration: .25s;
+  z-index: 99;
+  text-align: center;
 }
 .menu-item {
   display: block;
-  padding: 12px 24px;
-  color: #333;
-  font-family: 'Roboto', sans-serif;
+  padding: 5px 5px;
+  color: #ffffff;
+  font-family: Inter;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 0;
   text-decoration: none;
   transition-duration: .25s;
 }
 .menu-item:hover {
-  background-color: #CFD8DC;
+  background-color: #00b3ff;
 }
 #menu-toggle{
   opacity: 0;
@@ -107,4 +113,27 @@ gap: 10px;
 #menu-toggle:checked ~ .menubox{
   visibility: visible;
   left: 0;
+}
+.burger-menu{
+  display: none;
+}
+@media (max-width: 768px) {
+  .nav-list-item,.call-us-button-li{
+    display: none;
+  }
+  .burger-menu{
+    display: block;
+  }
+  .nice-logo{
+    display: block;
+    margin-right: 20px;
+    position: absolute;
+    left: 20px;
+    font-size: xx-large;
+    top: 5px;
+    z-index: 1;
+  }
+  .header{
+    height: 100px;
+  }
 }
