@@ -7,6 +7,11 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  @media (min-width: 768px ),(max-width: 1199px) {
+    background: url("../img/hero-bg-tablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 .hero-heading {
   color: var(--text-of-pages, #7e6d53);
@@ -45,3 +50,5 @@
     width: 300px;
     border-radius: 15px;
 }
+
+// hero-bg-tablet.png

@@ -46,6 +46,7 @@ header > nav > ul > li > a {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  display: block;
 }
 
 .menu-btn {
@@ -96,7 +97,7 @@ header > nav > ul > li > a {
   margin: 0;
   padding: 0 0;
   list-style: none;
-  background: linear-gradient(337deg, #2D2A22 5.7%, #7E6D53 108.98%);
+  background: linear-gradient(337deg, #2d2a22 5.7%, #7e6d53 108.98%);
   box-shadow: 1px 0px 6px rgba(255, 0, 0, 0.2);
   transition-duration: 0.25s;
   z-index: 99;
@@ -146,7 +147,8 @@ header > nav > ul > li > a {
 }
 
 @media (max-width: 768px) {
-  .nav-list-item, .call-us-button-li {
+  .nav-list-item,
+  .call-us-button-li {
     display: none;
   }
   .burger-menu {
@@ -165,6 +167,16 @@ header > nav > ul > li > a {
     height: 100px;
   }
 }
+@media (min-width: 768px), (max-width: 1199px) {
+  .contact-button {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .contact-button {
+    display: block;
+  }
+}
 .hero {
   background: url("../img/header-bg.png");
   text-align: center;
@@ -173,6 +185,13 @@ header > nav > ul > li > a {
 @media (max-width: 768px) {
   .hero {
     background: url("../img/hero-bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (min-width: 768px), (max-width: 1199px) {
+  .hero {
+    background: url("../img/hero-bg-tablet.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
