@@ -2,17 +2,28 @@
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #ede9e3;
+
+  @media (max-width: 768px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 .contact-h {
   color: var(--text-of-pages, #7e6d53);
-
-  /* title */
   font-family: Poppins;
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   text-align: center;
+  @media (max-width: 768px) {
+    color: var(--text-of-pages, #7e6d53);
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
 }
 .contact-p {
   color: var(--text-of-pages, #7e6d53);
@@ -26,6 +37,14 @@
   text-align: center;
   margin-top: 8px;
   margin-bottom: 20px;
+  @media (max-width: 768px) {
+    color: var(--text-of-pages, #7e6d53);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
 }
 .contact-div {
   padding: 53px 74px;
@@ -34,6 +53,15 @@
   display: flex;
   width: 700px;
   margin: 0 auto;
+  @media (max-width: 768px) {
+    display: flex;
+    width: 280px;
+    height: 218px;
+    padding: 24px 20px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+  }
 }
 .contact-links {
   color: #fff;
@@ -44,6 +72,14 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  @media (max-width: 768px) {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
 }
 .contact-svg {
   width: 24px;
@@ -71,6 +107,8 @@ p {
   flex-shrink: 0;
   border: 0;
   width: 224px;
+  margin-left: 64px;
+  margin-top: 33px;
   color: var(--text-of-pages, #7e6d53);
 
   font-family: Poppins;
@@ -78,11 +116,27 @@ p {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  @media (max-width: 768px) {
+    display: flex;
+    height: 48px;
+    padding: 14px 76px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    width: 240px;
+    color: var(--button-text, #2d2a22);
+    font-family: Poppins;
+    font-size: 16px;
+  }
 }
 
-.contact-div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+// .contact-div {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   justify-content: space-between;
+// }
+.contact-list {
+  padding: 0;
 }
