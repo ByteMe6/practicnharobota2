@@ -1,0 +1,10 @@
+.footer{
+    background: var(--header, linear-gradient(269deg, #2D2A22 20.66%, #7E6D53 85.22%));
+    .nice-logo{
+        color: white;
+    }
+}
+.footer-rows{
+    display: flex;
+    justify-content: space-between;
+}
