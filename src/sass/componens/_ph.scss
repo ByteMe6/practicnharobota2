@@ -1,6 +1,16 @@
+
 .m0a{
     margin: 0 auto;
 }
 .phb-list{
     display: flex;
+}
+.philos{
+    width: 100%;
+}
+.ph-text{
+    @media (max-width: 768px) {
+        width: 100px;
+        
+    }
 }
