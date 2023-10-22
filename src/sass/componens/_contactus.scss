@@ -60,4 +60,10 @@ p {
 .button {
   border-radius: 8px;
   background: var(--button-background, #fcfcfb);
+  display: flex;
+  height: 54px;
+  padding: 6px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
