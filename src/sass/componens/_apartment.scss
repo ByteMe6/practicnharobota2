@@ -1,0 +1,39 @@
+.m0a{
+    margin: 0 auto;
+}
+.ap-title{
+    color: var(--text-of-pages, #7E6D53);
+
+/* title */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.ap-list{
+    display: flex;
+}
+.ap-item:not(:last-child){
+    margin-right: 32px;
+}
+.ap-h3{
+    color: var(--button-text, #2D2A22);
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 120.5%; /* 38.56px */
+}
+.ap-text{
+    color: var(--text-of-pages, #7E6D53);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: 130%; /* 31.2px */
+}
+.ap-btn{
+    border-radius: 16px;
+    background: #7E6D53;
+}

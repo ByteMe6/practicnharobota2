@@ -60,7 +60,8 @@ p {
 .button {
   border-radius: 8px;
   background: var(--button-background, #fcfcfb);
-  border-radius: 8px;
+}
+ /* border-radius: 8px;
 background: var(--button-background, #FCFCFB);
 display: flex;
 height: 54px;
@@ -70,10 +71,11 @@ align-items: center;
 gap: 10px;
 flex-shrink: 0;
 border: 0;
-}
+}*/
 .contact-div{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
+
