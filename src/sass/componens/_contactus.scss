@@ -32,6 +32,8 @@
   border-radius: 16px;
   background: var(--text-of-pages, #7e6d53);
   display: flex;
+  width: 700px;
+  margin: 0 auto;
 }
 .contact-links {
   color: #fff;
@@ -60,22 +62,27 @@ p {
 .button {
   border-radius: 8px;
   background: var(--button-background, #fcfcfb);
+  display: flex;
+  height: 54px;
+  padding: 6px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border: 0;
+  width: 224px;
+  color: var(--text-of-pages, #7e6d53);
+
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
- /* border-radius: 8px;
-background: var(--button-background, #FCFCFB);
-display: flex;
-height: 54px;
-padding: 14px 28px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-flex-shrink: 0;
-border: 0;
-}*/
-.contact-div{
+
+.contact-div {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-
