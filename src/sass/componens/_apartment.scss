@@ -14,9 +14,19 @@ line-height: normal;
 .ap-list{
     display: flex;
 }
+.ap-item{
+    padding: 20px 58px;
+}
 .ap-item:not(:last-child){
     margin-right: 32px;
 }
+.ap-item:hover{
+    border-radius: 16px;
+border: 2px solid #7E6D53;
+box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+
 .ap-h3{
     color: var(--button-text, #2D2A22);
 font-family: Poppins;
@@ -32,8 +42,23 @@ font-size: 24px;
 font-style: normal;
 font-weight: 300;
 line-height: 130%; /* 31.2px */
+margin-bottom: 14px;
 }
 .ap-btn{
     border-radius: 16px;
     background: #7E6D53;
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.ap-img{
+    margin-bottom: 14px;
+    
+}
+.ap{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    padding: 0px 68px;
 }
