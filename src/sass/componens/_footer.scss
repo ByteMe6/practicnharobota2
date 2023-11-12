@@ -162,7 +162,28 @@
     padding: 0 15px;
   }
   // padding: 32px 15px;
+  margin-bottom: 45px;
 }
 .footer{
   padding: 32px 0px;
 }
+
+.footer-row-list-item{
+  @media (min-width: 770px) and (max-width: 1199px){
+    &:not(:last-child){
+      margin-bottom:16px;
+    }
+  }
+}
+
+.icon-svg{
+    height: 18px;
+}
+
+.nice-logo{
+  font-weight: 200;
+}
+
+// here i install punto switcher
+//  тут я скачал punto switcher 
+// програмка иба dikaya 
