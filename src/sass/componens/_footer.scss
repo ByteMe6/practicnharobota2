@@ -112,7 +112,7 @@
 .contact-nav {
   @media (max-width: 780px) {
     // padding: 0;
-    width: 285px;
+    // width: 285px;
     margin: 0 auto;
     // &:not(:last-child){
     //   margin-right: 46px;
@@ -135,25 +135,25 @@
 //   }
 // }
 
-.nice-logo-footer{
+.nice-logo-footer {
   @media (min-width: 770px) and (max-width: 1199px) {
     margin-right: 127px;
   }
 }
-.navigation-footer-computer{
+.navigation-footer-computer {
   @media (min-width: 770px) and (max-width: 1199px) {
     margin-right: 90px;
   }
 }
 
-.contacts-footer-computer{
-  @media (min-width: 770px) and (max-width: 1199px){
+.contacts-footer-computer {
+  @media (min-width: 770px) and (max-width: 1199px) {
     margin-right: 90px;
   }
 }
 
-.container-computer{
-  @media (min-width: 770px) and (max-width: 1199px){
+.container-computer {
+  @media (min-width: 770px) and (max-width: 1199px) {
     // margin-left: 32px;
     // margin-right: 32px;
     width: 700px;
@@ -164,26 +164,102 @@
   // padding: 32px 15px;
   margin-bottom: 45px;
 }
-.footer{
+.footer {
   padding: 32px 0px;
 }
 
-.footer-row-list-item{
-  @media (min-width: 770px) and (max-width: 1199px){
-    &:not(:last-child){
-      margin-bottom:16px;
-    }
-  }
+.icon-svg {
+  height: 18px;
 }
 
-.icon-svg{
-    height: 18px;
-}
-
-.nice-logo{
-  font-weight: 200;
+.nice-logo {
+  font-weight: 300;
 }
 
 // here i install punto switcher
-//  тут я скачал punto switcher 
-// програмка иба dikaya 
+//  тут я скачал punto switcher
+// програмка иба dikaya
+
+.footer-row-list-item {
+  @media (max-width: 780px) {
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.footer-nav-heading-mobile {
+  @media (max-width: 780px) {
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+.footer-contact-heading-mobile {
+  @media (max-width: 780px) {
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+// .footer-contact-mobile-email{
+//   width: 111px;
+// }
+
+// .footer-contact-mobile-adress{
+//   width: 135px;
+// }
+
+.footer-cantact-mobile-list {
+  @media (max-width: 780px) {
+    width: 130px;
+  }
+}
+
+//   @media (max-width: 780px) {
+// width: 130px;
+// }
+
+.footer-contacts-mobile {
+  @media (max-width: 780px) {
+    width: 130px;
+    margin: 0;
+  }
+}
+
+// margin елементов для dct[
+.footer-row-list-item {
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.container-mobile {
+  width: 281px;
+  margin: 0 auto;
+  // paddings
+  padding: 0 20px;
+}
+
+.footer-nav-mobile {
+  @media (max-width: 770px) {
+    margin-right: 46px;
+  }
+}
+
+.container-mobile {
+  @media (max-width:770px) {
+    padding: 0;
+  }
+}
