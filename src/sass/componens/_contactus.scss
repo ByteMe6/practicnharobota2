@@ -110,6 +110,8 @@ p {
   margin-left: 64px;
   margin-top: 33px;
   color: var(--text-of-pages, #7e6d53);
+  margin: 0 auto;
+  margin-top: 35px;
 
   font-family: Poppins;
   font-size: 24px;
@@ -128,6 +130,7 @@ p {
     color: var(--button-text, #2d2a22);
     font-family: Poppins;
     font-size: 16px;
+    margin: 0 auto;
   }
 }
 
@@ -139,4 +142,11 @@ p {
 // }
 .contact-list {
   padding: 0;
+}
+.contact-container {
+  width: 704px;
+  margin: 0 auto;
+  @media (max-width: 768px) {
+    width: 280px;
+  }
 }
