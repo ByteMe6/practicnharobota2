@@ -1,4 +1,6 @@
-
+@media(max-width:1000px){
+    
+}
 .m0a{
     margin: 0 auto;
 }
@@ -9,7 +11,9 @@
     background-size: cover;
     position: relative;
     padding-bottom: 290px;
+    
 }
+
 .phb-list{
     display: flex;
     opacity: 0.9;
@@ -17,15 +21,14 @@ background: var(--button-background, #FCFCFB);
 padding-top: 44px;
 padding-bottom: 44px;
 padding-left: 0px;
+@media(max-width:600px){
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
 }
 .philos{
     width: 100%;
-}
-.ph-text{
-    @media (max-width: 768px) {
-        width: 100px;
-        
-    }
 }
 .ph-list{
     display: flex;
@@ -35,6 +38,16 @@ flex-shrink: 0;
 flex-wrap: wrap;
 margin-left: 134px;
 margin-right: 122px;
+@media(max-width:1000px){
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 370px;
+    height: 268px;
+}
+@media(max-width:600px){
+    width: 280px;
+    margin: 0;
+}
 }
 .div-text{
     display: flex;
@@ -43,12 +56,27 @@ flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 gap: 16px;
+@media(max-width:1000px){
+    margin-right: 32px;
+}
+@media(max-width:600px){
+    width: 280px;
+}
 }
 .ph-item:nth-child(odd){
     margin-right: 72px;
+@media(max-width:1000px){
+    margin-right: 32px;
+}
+@media(max-width:600px){
+    margin-right: 20px;
+}
 }
 .rad1{
-    margin-bottom: 72px;
+    margin-bottom: 92px;
+@media(max-width:1000px){
+    margin-bottom: 60px;
+}
 }
 .ph-item{
     display: flex;
@@ -57,6 +85,21 @@ flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 gap: 24px;
+@media(max-width:1000px){
+
+width: 152px;
+flex-wrap: wrap;
+
+}
+@media(max-width:600px){
+    
+width: 130px;
+
+justify-content: center;
+align-items: flex-start;
+gap: 24px;
+margin-bottom: 0;
+}
 }
 .men{
     padding-top: 57px;
@@ -66,4 +109,35 @@ gap: 24px;
     bottom: -23%;
     left: 46%;
     transform: translate(-20%, -50%);
+}
+.ph-text{
+    color: var(--text-of-pages, #7E6D53);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+@media(max-width:600px){
+    color: var(--text-of-pages, #7E6D53);
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+width: 280px;
+margin-bottom: 20px;
+}
+}
+.ph-title{
+    color: var(--button-text, #2D2A22);
+
+/* subtitle */
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+@media(max-width:600px){
+    font-size: 16px;
+}
 }

@@ -1,3 +1,6 @@
+ol,ul{
+    padding: 0;
+}
 .m0a{
     margin: 0 auto;
 }
@@ -10,15 +13,61 @@ font-size: 40px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+@media(max-width:320px){
+    color: var(--text-of-pages, #7E6D53);
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
 }
 .ap-list{
     display: flex;
+@media(max-width:900px){
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
 }
 .ap-item{
     padding: 20px 58px;
+@media(max-width:768px){
+    padding: 20px 44px;
+    }
+
+@media(max-width:768px){
+    padding: 20px 32px;
+    }
 }
-.ap-item:not(:last-child){
+.ap-item{
+&:not(:last-child){
     margin-right: 32px;
+// padding: 20px 58px;
+@media(max-width:1000px){
+    padding: 20px 44px;
+    &:not(:first-child){
+        margin-right: 0;
+    }
+&:first-child{
+    margin-right: 32px;
+    margin-bottom: 28px;
+}
+    }
+}
+@media(max-width:320px){
+    
+    margin: 0;
+    &:not(:first-child){
+        margin-right: 0;
+        margin-bottom: 28px;
+    }
+    &:not(:last-child):first-child {
+        margin-bottom: 28px;
+        margin-right: 32px;
+    }
+}
+
 }
 .ap-item:hover{
     border-radius: 16px;
@@ -34,6 +83,15 @@ font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: 120.5%; /* 38.56px */
+text-align: center;
+@media(max-width:320px){
+    color: var(--button-text, #2D2A22);
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 33.6px */
+}
 }
 .ap-text{
     color: var(--text-of-pages, #7E6D53);
@@ -43,6 +101,14 @@ font-style: normal;
 font-weight: 300;
 line-height: 130%; /* 31.2px */
 margin-bottom: 14px;
+@media(max-width:320px){
+    color: var(--text-of-pages, #7E6D53);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 130%; /* 26px */
+}
 }
 .ap-btn{
     border-radius: 16px;
@@ -50,7 +116,23 @@ margin-bottom: 14px;
     padding: 14px 28px;
     justify-content: center;
     align-items: center;
-    display: block;
+    display: block; 
+    width: 264px;
+    color: #FCFCFB;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+@media(max-width:480px) {
+    width: 240px;
+    color: #FCFCFB;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
 }
 .ap-img{
     margin-bottom: 14px;
@@ -61,4 +143,43 @@ margin-bottom: 14px;
     align-items: center;
     display: block;
     padding: 0px 68px;
+    @media(max-width:1000px){
+        padding: 0px 32px;
+    }
 }
+#l{
+    @media(max-width:480px){
+    
+        padding: 20px 28px;
+        margin: 0;
+        
+        }
+    }
+.ap-item{
+    @media(max-width:480px){
+    
+        padding: 20px 28px;
+        margin: 0;
+        width: 280px;
+height: 383px;
+        text-align: center;
+        }
+}
+#ll{
+    @media(max-width:480px){
+    
+        padding: 20px 15px;
+        margin: 0;
+        
+        }
+    }
+#lll{
+        @media(max-width:480px){
+        
+            padding: 20px 15px;
+            margin: 0;
+            
+            }
+        }
+
+
