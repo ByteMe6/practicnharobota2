@@ -1,34 +1,265 @@
-.footer{
-    background: var(--header, linear-gradient(269deg, #2D2A22 20.66%, #7E6D53 85.22%));
-    .nice-logo{
-        color: white;
-    }
-    // padding-right: 104px;
-    // text-align: center;
-}
-.container{
-    width: 1100px;
-    margin: 0 auto;
-}
-.footer-rows{
-    display: flex;
-    justify-content: space-between;
-}
-.footer-row-list-item{
+.footer {
+  background: var(
+    --header,
+    linear-gradient(269deg, #2d2a22 20.66%, #7e6d53 85.22%)
+  );
+  .nice-logo {
     color: white;
+  }
+  // padding-right: 104px;
+  // text-align: center;
 }
-.footer-row-heading{
-    color: #FFF;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+.container-computer {
+  width: 1100px;
+  margin: 0 auto;
 }
-.icon-svg{
-    width: 24px;
-    height: 39px;
+.footer-rows {
+  display: flex;
+  @media (min-width: 1200px) {
+    justify-content: space-between;
+  }
 }
-// .container{
+.footer-row-list-item {
+  color: white;
+}
+.footer-row-heading {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.icon-svg {
+  width: 24px;
+  height: 39px;
+}
+
+// mobile footer
+
+.container-computer {
+  @media (max-width: 780px) {
+    display: none;
+  }
+}
+.container-mobile {
+  display: none;
+  @media (max-width: 780px) {
+    display: block;
+  }
+}
+// .container-mobile{
 //     width: 280px;
 // }
+.icons-footer-row {
+  // display: flex;
+  justify-content: space-between;
+}
+.footer-row-list-icons {
+  display: flex;
+  flex-direction: row;
+}
+.icon-svg {
+  @media (max-width: 780px) {
+    // width: 24px;
+    // height: 24px;
+    font-size: large;
+    // display: flex;
+    // just
+  }
+}
+.container-computer {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+.list-footer-row {
+  @media (max-width: 780px) {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.footer-row-list-icons {
+  @media (max-width: 780px) {
+    display: flex;
+    // justify-content: center;
+    // text-align: center;
+    // width: 300px;
+  }
+}
+
+.footer-contacts-mobile {
+  @media (max-width: 780px) {
+    width: 219px;
+    padding: 0;
+    // margin
+    margin-left: 46px;
+  }
+}
+.footer-row-list-mobile {
+  @media (max-width: 780px) {
+    padding: 0;
+  }
+}
+
+.icons-footer-mobile {
+  @media (max-width: 780px) {
+    padding: 0;
+    width: 285px;
+    margin: 0 auto;
+  }
+}
+.contact-nav {
+  @media (max-width: 780px) {
+    // padding: 0;
+    // width: 285px;
+    margin: 0 auto;
+    // &:not(:last-child){
+    //   margin-right: 46px;
+    // }
+  }
+}
+
+// tablet opimization
+// http://localhost:1234
+.footer-rows {
+  @media (min-width: 770px) and (max-width: 1199px) {
+    // justify-content: ;
+  }
+}
+
+// .footer{
+//     @media (min-width:770px) and (max-width: 1199px){
+//     // justify-content: ;
+//     width:105%;
+//   }
+// }
+
+.nice-logo-footer {
+  @media (min-width: 770px) and (max-width: 1199px) {
+    margin-right: 127px;
+  }
+}
+.navigation-footer-computer {
+  @media (min-width: 770px) and (max-width: 1199px) {
+    margin-right: 90px;
+  }
+}
+
+.contacts-footer-computer {
+  @media (min-width: 770px) and (max-width: 1199px) {
+    margin-right: 90px;
+  }
+}
+
+.container-computer {
+  @media (min-width: 770px) and (max-width: 1199px) {
+    // margin-left: 32px;
+    // margin-right: 32px;
+    width: 700px;
+    margin: 0 auto;
+    // paddings
+    padding: 0 15px;
+  }
+  // padding: 32px 15px;
+  margin-bottom: 45px;
+}
+.footer {
+  padding: 32px 0px;
+}
+
+.icon-svg {
+  height: 18px;
+}
+
+.nice-logo {
+  font-weight: 300;
+}
+
+// here i install punto switcher
+//  тут я скачал punto switcher
+// програмка иба dikaya
+
+.footer-row-list-item {
+  @media (max-width: 780px) {
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.footer-nav-heading-mobile {
+  @media (max-width: 780px) {
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+.footer-contact-heading-mobile {
+  @media (max-width: 780px) {
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+// .footer-contact-mobile-email{
+//   width: 111px;
+// }
+
+// .footer-contact-mobile-adress{
+//   width: 135px;
+// }
+
+.footer-cantact-mobile-list {
+  @media (max-width: 780px) {
+    width: 130px;
+  }
+}
+
+//   @media (max-width: 780px) {
+// width: 130px;
+// }
+
+.footer-contacts-mobile {
+  @media (max-width: 780px) {
+    width: 130px;
+    margin: 0;
+  }
+}
+
+// margin елементов для dct[
+.footer-row-list-item {
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.container-mobile {
+  width: 281px;
+  margin: 0 auto;
+  // paddings
+  padding: 0 20px;
+}
+
+.footer-nav-mobile {
+  @media (max-width: 770px) {
+    margin-right: 46px;
+  }
+}
+
+.container-mobile {
+  @media (max-width:770px) {
+    padding: 0;
+  }
+}
