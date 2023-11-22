@@ -7,7 +7,7 @@
   width: 1144px;
   // background-color: #7e6d53;
   // padding-left: 68px;
-  background: var(--global-back, #EDE9E3);
+  background: var(--global-back, #ede9e3);
 }
 
 .infostrykt-conteiner {
@@ -39,7 +39,7 @@
 .infostrykt-iten:not(:last-child) {
   margin-bottom: 60px;
 }
-.infostrykt-iten:nth-child(even){
+.infostrykt-iten:nth-child(even) {
   flex-direction: row-reverse;
 }
 .infostrykt-text {
@@ -99,12 +99,94 @@
   line-height: normal;
 }
 
-.infostrykt-tit{
-  margin:0 15px;
+.infostrykt-tit {
+  margin: 0 15px;
 }
 
-.infostrykt-list{
+.infostrykt-list {
   right: 215px;
   // top: 8px;
   // bottom: 8px;
 }
+
+@media (max-width: 700px) {
+  .infostrykt {
+    width: auto;
+    max-width: 700px;
+  }
+  .infostrykt-conteiner {
+    .infostrykt {
+      width: auto;
+      max-width: 700px;
+      // background: green;
+
+      // back
+
+      // infrastructure-backround-container-img-mobile.png
+      background: (
+          url('../img/infrastructure-backround-container-img-mobile.png')
+        )
+        no-repeat;
+      // background: rgb(37, 251, 9);
+    }
+  }
+}
+
+@media (max-width: 700px), (min-width: 501px){
+  .infostrykt {
+    width: auto;
+    max-width: 700px;
+  }
+  .infostrykt-conteiner {
+    width: auto;
+    max-width: 700px;
+    width: 90%;
+    // background: green;
+
+    // back
+
+    // infrastructure-backround-container-img-mobile.png
+    background:url('../img/infrastructure-backround-container-img-mobile.png') no-repeat;
+      background-size: 99% 99%;
+
+    // background: rgb(37, 251, 9);
+
+    // padding
+    margin: 50px 40px;
+  }
+
+  .infostrykt-list{
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .infostrykt {
+    width: auto;
+    max-width: 700px;
+  }
+  .infostrykt-conteiner {
+    width: auto;
+    max-width: 700px;
+    width: 90%;
+    // background: green;
+
+    // back
+
+    // infrastructure-backround-container-img-mobile.png
+    background:url('../img/infrastructure-backround-container-img-mobile.png') no-repeat;
+      background-size: 99% 99%;
+
+    // background: rgb(37, 251, 9);
+
+    // padding
+    margin: 30px 25px;
+  }
+
+  .infostrykt-list{
+    width: 200px;
+    padding: 24px 18px;
+    right: 90px;
+  }
+}
+
