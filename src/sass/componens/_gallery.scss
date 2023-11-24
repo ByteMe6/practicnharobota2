@@ -21,6 +21,10 @@
 }
 
 //  class="img-glallery1"
-.img-glallery1, .img-glallery2, .img-glallery3{
+.img-glallery{
   height: 395px;
+  border-radius: 20px;
+  &:not(:last-child){
+    margin-right: 400px;
+  }
 }
