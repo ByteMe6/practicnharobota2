@@ -1,10 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="lucide:twitter" clip-path="url(#clip0_1_221)">
-<path id="Vector" d="M24 4.00783C24 4.00783 23.23 6.10684 21.8 7.40623C23.56 17.4015 11.46 24.6981 2 19.0008C4.42 19.1007 6.84 18.401 8.6 17.0017C3.1 15.5024 0.35 9.60519 3.1 5.00736C5.52 7.60613 9.26 9.10543 13 9.00547C12.01 4.80745 17.4 2.40859 20.7 5.20727C21.91 5.20727 24 4.00783 24 4.00783Z" stroke="#FCFCFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<defs>
-<clipPath id="clip0_1_221">
-<rect width="24" height="24" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g id="lucide:twitter" clip-path="url(#clip0_1_221)"><path id="Vector" stroke="#FCFCFB" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24 4.00783C24 4.00783 23.23 6.10684 21.8 7.40623C23.56 17.4015 11.46 24.6981 2 19.0008C4.42 19.1007 6.84 18.401 8.6 17.0017C3.1 15.5024 0.35 9.60519 3.1 5.00736C5.52 7.60613 9.26 9.10543 13 9.00547C12.01 4.80745 17.4 2.40859 20.7 5.20727C21.91 5.20727 24 4.00783 24 4.00783Z"/></g><defs><clipPath id="clip0_1_221"><rect width="24" height="24" fill="#fff"/></clipPath></defs></svg>
