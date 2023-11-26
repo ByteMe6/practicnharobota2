@@ -101,6 +101,7 @@ font-style: normal;
 font-weight: 300;
 line-height: 130%; /* 31.2px */
 margin-bottom: 14px;
+
 @media(max-width:320px){
     color: var(--text-of-pages, #7E6D53);
 font-family: Poppins;
@@ -181,5 +182,13 @@ height: 383px;
             
             }
         }
+
+.ap-m-b{
+    height: 100px;
+    background-color:  #EDE9E3;
+    @media(max-width:320px){
+    height: 60px;
+    }
+}
 
 
