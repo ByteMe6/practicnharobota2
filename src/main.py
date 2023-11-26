@@ -1,1 +1,0 @@
-# print_motto() # => Winter is coming
