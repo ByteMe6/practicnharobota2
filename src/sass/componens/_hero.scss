@@ -2,6 +2,7 @@
   background: url("../img/header-bg.png");
   text-align: center;
   height: 720px;
+
   @media (max-width: 768px){
     background: url("../img/hero-bg-mobile.png");
     background-repeat: no-repeat;
@@ -52,3 +53,7 @@
 }
 
 // hero-bg-tablet.png
+.contact-button-hero{
+  background-color: whitesmoke;
+  margin-bottom: 30px;
+}
