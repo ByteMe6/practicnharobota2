@@ -1,15 +1,15 @@
 {
-  "name": "practichna-robota-2--",
+  "name": "practichnarobota2",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://yurka2012.github.io/practicnha-robota-2--/",
+  "homepage": "https://yurka2012.github.io/practicnharobota2/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /practichna-robota-2--/"
+    "build": "parcel build src/*.html --public-url /practichnarobota2/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yurka2012/practicnha-robota-2--"
+    "url": "git+https://github.com/Yurka2012/practicnharobota2"
   },
   "keywords": [],
   "author": "",
