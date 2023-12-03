@@ -1,19 +1,18 @@
 {
-  "name": "parcel-project-template",
-  "version": "1.1.0",
+  "name": "practichnarobota2",
+  "version": "2.0.0",
   "description": "",
-  "main": "index.js",
   "homepage": "https://Yurka2012.github.io/practicnharobota2/",
   "scripts": {
-    "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /practicnharobota2/"
+    "start": "parcel src/*.html",
+     "build": "parcel build src/*.html --public-url /practicnharobota2/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yurka2012/practicnharobota2.git"
+  "url": "git+https://github.com/Yurka2012/practicnharobota2.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
@@ -22,12 +21,10 @@
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
-    "cssnano": "^6.0.1",
-    "parcel-bundler": "^1.12.5",
-    "parcel-plugin-handlebars-precompile": "^1.0.2",
-    "parcel-plugin-nuke-dist": "^1.0.1",
-    "postcss": "^8.4.32",
-    "posthtml-include": "^1.6.2",
-    "sass": "^1.32.8"
-  }
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
